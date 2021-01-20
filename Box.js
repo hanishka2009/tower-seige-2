@@ -31,6 +31,7 @@ class Box {
        push()
        this.visibility=this.visibility-5
        tint(255,this.Visiblity);
+          rect(0,0, this.width, this.height);
        pop();
      }
     }
